@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Saira+Extra+Condensed:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import "mixins";
+@import "responsive";
+
+$bck-color: #666362;
+$bck-block: #faafba;
+$main-text-color: #fff;
+$spec-text-color: #faafba;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: $bck-color;
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding: 15px 0px;
+    @include centriranje;
+    @include pozicioniranje1;
+    
+    img{
+        height:100px;
+        width: 150px;
+    }
+
+    nav{
+        ul{
+            list-style-type: none;
+            margin:0px;
+            padding: 40px 0px;
+            @include pozicioniranje1;
+        }
+        li{
+            margin-right: 30px;
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+            color: $main-text-color;
+        }
+    }
+}
+
+a{
+    font-family: "Nunito", sans-serif;
+}
+
+#margin-right{
+    margin-right: 20px;
+}
+#margin-bottom{
+    margin-bottom: 50px;
+}
+
+#pozadina{
+    background-image: url(../img/cover6.webp);
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: end;
+    .poz-slika{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: #00000072;
+    .dugme1{
+        background-color: $bck-color;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 80px;
+        height: 30px;
+        bottom: 60px;
+        text-align: center;
+    }
+    }
+    a{ 
+        text-decoration: none;
+        color: $spec-text-color;
+        font-family: "Inconsolata", monospace;
+       font-size: 21px;
+        text-align: center;
+    }
+}
+.linija{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    hr{
+        width: 50%;
+        margin: 20px 0px;
+    }
+}
+#vestine{
+    margin-top: 20px;
+    h2{
+    @include naslovih2
+    }
+    .sadrzaj1{
+        @include pozicioniranje2;
+    
+    .vestina{
+        width: 20%;
+        height: 100px;
+        background-color: #faafba;
+        margin: 20px 20px;
+        border-radius: 10px;
+        h3{
+            color: $main-text-color;
+            text-align: center;
+            margin-top: 10px;
+        }
+        h5{
+            color: $main-text-color;
+            text-align: center;
+            margin-top: 10px;
+        }
+        p{
+            color: $main-text-color;
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+    }
+}
+#projekti{
+    h2{
+        @include naslovih2;
+    }
+    .slike{
+        @include pozicioniranje2;
+    
+    .slika1{
+        width: 50%;
+        box-sizing: border-box;
+        padding: 40px;
+        img{
+            width: 90%;
+            height:auto;
+            border-radius: 10px;
+        }
+        p{
+            margin-top: 20px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: $main-text-color;
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+    }
+    }
+}
+#usluge{
+    h2{
+        @include naslovih2;
+        margin-bottom: 30px;
+    }
+    .usluga{
+        @include pozicioniranje1;
+        @include centriranje;
+        .usluga1{
+            border-radius: 10px;
+        .pozicija{
+            margin: 10%;
+        }
+        width: 30%;
+        background-color: $bck-block;
+        h3{
+            color: $main-text-color;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-family: "Inconsolata", monospace;
+        }
+        p{
+            color: $main-text-color;
+        }
+        }
+        .red{
+            margin-top: 8%;
+        }
+    }
+}
+#kontakt{
+    h2{
+        @include naslovih2;
+    }
+    .kontaktiranje{
+      @include pozicioniranje4;
+        @include centriranje;
+
+    .forma{
+        width: 50%;
+        form{
+            padding: 20px;
+            border-radius: 10px;
+            label{
+                color: $main-text-color;
+            }
+            input{
+                width: 90%;
+                padding: 20px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                margin: 0px auto;
+            }
+            textarea{
+                width: 90%;
+                padding: 20px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                margin: 0px auto;
+            }
+            .proba{
+                margin:0px auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            button{
+                background-color:$bck-color;
+                color: $main-text-color;
+                padding: 10px 20px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    } 
+    .dodatni-kontakt{
+        width: 50%;
+        
+        p{
+            color: $main-text-color;
+            font-size: 18px;
+            margin-top: 10px;
+           margin-left: 40px;
+        }
+    }
+    } 
+}
+#o-meni{
+    margin-top: 30px;
+    width: 100%;
+   .sadrzaj{
+    @include pozicioniranje2;
+    img{
+        border-radius: 10px;
+    }
+    .tekst{
+        @include pozicioniranje3;
+        margin-left: 30px;
+        width: 50%;
+    h2{
+        @include naslovih2;
+        margin-bottom: 40px;
+    }
+    p{
+        text-align: justify;
+        color:$main-text-color;
+        font-size: 18px;
+    }
+    span{
+        color: $spec-text-color;
+    }
+    }
+    }
+}
+footer{
+    @include pozicioniranje1;
+    color: $main-text-color;
+    padding: 10px;
+    .levo{
+        flex: 1;
+        margin-left: 40px;
+        p{
+            font-size: 18px;
+        }
+    }
+    .ikonice{
+        display: flex;
+        gap: 30px;
+        margin-right: 40px;
+        font-size: 20px;
+    }
+    i{
+        width: 20px;
+        height: 20px;
+        color: #fff;
+    }
+}

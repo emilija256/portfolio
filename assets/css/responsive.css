@@ -1,0 +1,198 @@
+@media screen and (max-width: 1024px) {
+  header img {
+    height: 80px !important;
+    width: 100px !important;
+  }
+  header nav a {
+    font-size: 12px !important;
+  }
+  footer .levo p {
+    font-size: 12px !important;
+  }
+  footer .ikonice {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  #projekti .slike .slika1 {
+    width: 100%;
+    margin-left: 50px;
+  }
+  #projekti .slike .slika1 p {
+    margin-left: 50pxp;
+  }
+}
+@media screen and (max-width: 850px) {
+  #vestine .sadrzaj1 .vestina p {
+    font-size: 10px;
+  }
+  #projekti .slike .slika1 p a {
+    font-size: 15px;
+  }
+  #usluge {
+    margin-top: 20px !important;
+  }
+  #usluge .usluga .usluga1 {
+    width: 50% !important;
+    margin-top: 40px;
+  }
+  #usluge .usluga .usluga1 .pozicija {
+    margin: 10% !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #o-meni .sadrzaj img {
+    width: 200px;
+  }
+  #o-meni .sadrzaj .tekst p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 745px) {
+  header {
+    height: 150px !important;
+    padding: 5px 0px !important;
+  }
+  header #logo {
+    width: 100% !important;
+    align-items: center !important;
+    margin-left: 40% !important;
+  }
+  header #logo img {
+    left: 50% !important;
+  }
+  header nav {
+    height: 100px;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap;
+    padding: 0px !important;
+  }
+  header ul li {
+    padding: 9px 15px !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  #vestine .sadrzaj1 .vestina h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  #o-meni .sadrzaj .tekst {
+    margin-left: 0px !important;
+    width: 90% !important;
+  }
+  #o-meni .sadrzaj .slika {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 680px) {
+  #kontakt .kontaktiranje .dodatni-kontakt p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 590px) {
+  #vestine .sadrzaj1 .vestina {
+    height: 80px;
+  }
+  #vestine .sadrzaj1 .vestina h3 {
+    font-size: 12px;
+  }
+  #vestine .sadrzaj1 .vestina p {
+    display: none;
+  }
+  #kontakt .kontaktiranje .dodatni-kontakt p {
+    font-size: 14px;
+  }
+  #projekti .slike .slika1 p a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #kontakt .kontaktiranje .forma {
+    width: 100% !important;
+  }
+  #kontakt .kontaktiranje .dodatni-kontakt {
+    width: 100% !important;
+  }
+  #kontakt .kontaktiranje .dodatni-kontakt p {
+    margin-right: 0px !important;
+  }
+  #vestine .sadrzaj1 .vestina h3 {
+    font-size: 10px;
+  }
+  #usluge {
+    margin-top: 20px !important;
+  }
+  #usluge .usluga {
+    justify-content: center;
+  }
+  #usluge .usluga .usluga1 {
+    width: 50% !important;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  #usluge .usluga .usluga1 .pozicija {
+    margin: 10% !important;
+  }
+  #usluge .usluga .usluga1 .pozicija h3 {
+    font-size: 16px;
+  }
+  #usluge .usluga .usluga1 .pozicija p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dugme1 {
+    height: 20px !important;
+    padding: 10px 40px !important;
+  }
+  footer .levo {
+    display: none;
+  }
+  footer .ikonice {
+    margin: 0px auto !important;
+  }
+  #kontakt .kontaktiranje .dodatni-kontakt p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #kontakt .kontaktiranje .forma {
+    justify-content: center;
+    width: 100% !important;
+  }
+  #kontakt .kontaktiranje .dodatni-kontakt {
+    display: none;
+  }
+}
+@media screen and (max-width: 445px) {
+  header nav ul li {
+    padding: 6px 10px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  #projekti .slike .slika1 p a {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 405px) {
+  header nav ul li {
+    padding: 4px 8px !important;
+  }
+}
+@media screen and (max-width: 391px) {
+  header nav ul li {
+    padding: 2px 4px !important;
+  }
+}
+@media screen and (max-width: 375px) {
+  #o-meni .sadrzaj img {
+    width: 200px;
+  }
+  #o-meni .sadrzaj .tekst p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

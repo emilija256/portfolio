@@ -1,0 +1,35 @@
+@mixin centriranje{
+    width: 80%;
+    margin: 0px auto;
+}
+@mixin pozicioniranje1{
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+@mixin pozicioniranje2{
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+}
+@mixin pozicioniranje3{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+}
+@mixin naslovih2{
+    text-align: center;
+    color: $spec-text-color;
+    font-size: 32px;
+    font-family: "Inconsolata", monospace;
+}
+@mixin pozicioniranje4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin pozicioniranje5{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
