@@ -90,7 +90,9 @@
         #logo{
             width: 100% !important;
             align-items: center !important;
-            margin-left:40% !important;
+            /*margin-left:40% !important;*/
+			display:flex;
+			justify-content:center;
             img{
                 left: 50% !important;
             }
