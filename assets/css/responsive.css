@@ -55,8 +55,10 @@
   }
   header #logo {
     width: 100% !important;
-    align-items: center !important;
-    margin-left: 40% !important;
+    /*align-items: center !important;
+    margin-left: 40% !important;*/
+	display: flex !important;
+	justify-content: center !important;
   }
   header #logo img {
     left: 50% !important;
