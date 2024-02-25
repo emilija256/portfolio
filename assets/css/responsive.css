@@ -19,7 +19,7 @@
     margin-left: 50px;
   }
   #projekti .slike .slika1 p {
-    margin-left: 50pxp;
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -55,8 +55,8 @@
   }
   header #logo {
     width: 100% !important;
-	display: flex !important;
-	justify-content: center !important;
+    display: flex !important;
+    justify-content: center !important;
   }
   header nav {
     height: 100px;

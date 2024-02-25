@@ -21,7 +21,7 @@
     margin-left: 50px;
   }
   #projekti .slike .slika1 p {
-    margin-left: 50pxp;
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -57,11 +57,8 @@
   }
   header #logo {
     width: 100% !important;
-    align-items: center !important;
-    margin-left: 40% !important;
-  }
-  header #logo img {
-    left: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
   }
   header nav {
     height: 100px;
@@ -170,9 +167,24 @@
     display: none;
   }
 }
+@media screen and (max-width: 445px) {
+  header nav ul li {
+    padding: 6px 10px !important;
+  }
+}
 @media screen and (max-width: 420px) {
   #projekti .slike .slika1 p a {
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 405px) {
+  header nav ul li {
+    padding: 4px 8px !important;
+  }
+}
+@media screen and (max-width: 391px) {
+  header nav ul li {
+    padding: 2px 4px !important;
   }
 }
 @media screen and (max-width: 375px) {
