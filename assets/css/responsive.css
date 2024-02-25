@@ -58,9 +58,6 @@
 	display: flex !important;
 	justify-content: center !important;
   }
-  header #logo img {
-    left: 50% !important;
-  }
   header nav {
     height: 100px;
   }
